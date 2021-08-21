@@ -8,7 +8,10 @@ export class CartService {
   items: Product[]= [];
 
   addToCart(product: Product){
-    this.items.push(product)
+    this.items.push(product);
+  }
+  getItems(){
+    return this.items;
   }
 
   constructor() { }
