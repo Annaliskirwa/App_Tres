@@ -21,8 +21,12 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
     TopBarComponent,
     ProductListComponent,
     ProductAlertsComponent,
+<<<<<<< HEAD
     ProductListComponent,
     ProductDetailsComponent
+=======
+    ProductListComponent
+>>>>>>> upstream/master
   ],
   bootstrap: [AppComponent]
 })
